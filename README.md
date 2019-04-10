@@ -6,8 +6,8 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 ## Todo List:
 * Connect to individual spreadsheets
 * Figure out Squarespace API
-** Create blog posts
-** Populate blog posts with spreadsheet information
+  * Create blog posts
+  * Populate blog posts with spreadsheet information
 * Learn how to use `cron`
-** Determine proper time interval
+  * Determine proper time interval
 * Use `requirements.txt` instead of keeping all the packages in the repo?
