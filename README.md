@@ -3,9 +3,11 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 
 ---
 
-## Todo List:
-* Connect to individual spreadsheets
+## Todo List - Script to Tx from Google Sheets to Squarespace:
+* Figure out Google Sheets API
+  * Connect to individual spreadsheets
 * Figure out Squarespace API
+  * Connect to earmob.com
   * Create blog posts
   * Populate blog posts with spreadsheet information
 * Learn how to use `cron`
