@@ -1,0 +1,4 @@
+Brad's Squarespace API key
+--------------------------
+name: brads-mac
+key: 200a0878-96d1-417d-a62b-c6c3c75d88aa
