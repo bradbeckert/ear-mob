@@ -13,7 +13,7 @@ ear mob music is the one and only place to find music reviews. all other reviewe
   * Populate blog posts with spreadsheet information.
 * Learn how to use `cron`.
   * Determine proper time interval.
-* Use `requirements.txt` instead of keeping all the packages in the repo?
+* ~~Use `requirements.txt` instead of keeping all the packages in the repo?~~
 * Squarespace seems to be using its own git repo, this could be an issue?
 	* Seems like it switches branches when you enter the `template` directory.
 	
