@@ -14,6 +14,7 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 * Learn how to use `cron`
   * Determine proper time interval
 * Use `requirements.txt` instead of keeping all the packages in the repo?
+* Squarespace seems to be using its own git repo, this could be an issue?
 	
 ---
 
@@ -29,9 +30,28 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 `pip install -r requirements.txt`
 
 4. Enable the Google Sheets API by getting your `credentials.json` file [here](https://developers.google.com/sheets/api/quickstart/python?authuser=1) (doesn't look like the works with our @husky emails).
-	* Run `quickstart.py` to make sure you're setup correctly and allow access to your sheets on your @husky email.
+* Run `quickstart.py` to make sure you're setup correctly and allow access to your sheets on your @husky email.
 5. Clone the website template with the command:
 
 `git clone https://oboe-conch-afl6.squarespace.com/template.git`
 
-6. Continue
+6. Install Node.js [here](https://nodejs.org/en/)
+7. `cd` into the template directory then run the command:
+
+`npm install`
+
+* Give npm the necessary permission with the following set of commands:
+
+`NPM_CONFIG_PREFIX=~/.npm-global`
+
+`source ~/.profile`
+
+8. Install the Squarespace dev server with the command:
+
+`npm install -g @squarespace/server`
+
+9. Run the website locally using the command:
+
+`squarespace-server https://oboe-conch-afl6.squarespace.com/`
+
+10. Go to `localhost:9000` to see the website!!!
