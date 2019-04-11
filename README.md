@@ -4,23 +4,24 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 ---
 
 ## Todo List - Script to Transfer from Google Sheets to Squarespace:
-* Figure out Google Sheets API
-  * Connect to individual spreadsheets
-	* Parse data (e.g. artist, album, genre, year, & rating) properly for each Sheet
-* Figure out Squarespace API
-  * Connect to earmob.com
-  * Create blog posts
-  * Populate blog posts with spreadsheet information
-* Learn how to use `cron`
-  * Determine proper time interval
+* Figure out Google Sheets API.
+  * Connect to individual spreadsheets.
+	* Parse data (e.g. artist, album, genre, year, & rating) properly for each Sheet.
+* Figure out Squarespace API.
+  * Connect to earmob.com.
+  * Create blog posts.
+  * Populate blog posts with spreadsheet information.
+* Learn how to use `cron`.
+  * Determine proper time interval.
 * Use `requirements.txt` instead of keeping all the packages in the repo?
 * Squarespace seems to be using its own git repo, this could be an issue?
+	* Seems like it switches branches when you enter the `template` directory.
 	
 ---
 
 ## Installation Instructions
 
-1. Clone the repo
+1. Clone the repo.
 2. Create a virtual environment in the source folder using the command:
 
 `python -m venv ~/path/to/ear-mob`
