@@ -51,8 +51,6 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 
 `npm install -g @squarespace/server`
 
-9. Run the website locally using the command:
-
-`squarespace-server https://oboe-conch-afl6.squarespace.com/`
+9. Run the website locally by running `runserver.py`
 
 10. Go to `localhost:9000` to see the website!!!
