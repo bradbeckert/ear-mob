@@ -30,7 +30,7 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 
 `pip install -r requirements.txt`
 
-4. Enable the Google Sheets API by getting your `credentials.json` file [here](https://developers.google.com/sheets/api/quickstart/python?authuser=1) (doesn't look like the works with our @husky emails).
+4. Enable the Google Sheets API by getting your `credentials.json` file [here](https://developers.google.com/sheets/api/quickstart/python?authuser=1) (doesn't look like it works with our @husky emails, so I just used my personal one).
 * Run `quickstart.py` to make sure you're setup correctly and allow access to your sheets on your @husky email.
 5. Clone the website template with the command:
 
