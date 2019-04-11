@@ -8,7 +8,7 @@ ear mob music is the one and only place to find music reviews. all other reviewe
 	* Connect to individual spreadsheets.
 	* Parse data (e.g. artist, album, genre, year, & rating) properly for each Sheet.	
 * Figure out Squarespace API.
-  * Connect to earmob.com.
+  * ~~Connect to earmob.com.~~
   * Create blog posts.
   * Populate blog posts with spreadsheet information.
 * Learn how to use `cron`.
